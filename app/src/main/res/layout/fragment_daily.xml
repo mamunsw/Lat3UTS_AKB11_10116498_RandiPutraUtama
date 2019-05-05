@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DailyFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:id="@+id/tulisan1"
+        android:layout_width="400dp"
+        android:layout_height="20dp"
+        android:text="05:00 - 06:30 = Bangun tidur + Sholat + Membersihkan kosan"
+        android:textColor="#000"
+
+        />
+    <TextView
+        android:id="@+id/tulisan2"
+        android:layout_below="@+id/tulisan1"
+        android:layout_width="400dp"
+        android:layout_height="20dp"
+        android:text="06:30 - 07:30= mandi + Sarapan Berangkat kuliah "
+        android:textColor="#000"
+        />
+    <TextView
+        android:id="@+id/tulisan3"
+        android:layout_below="@+id/tulisan2"
+        android:layout_width="400dp"
+        android:layout_height="20dp"
+        android:text="07:30 - 15:15 = Kuliah + sholat + makan siang + pulang"
+        android:textColor="#000">
+    </TextView>
+    <TextView
+        android:id="@+id/tulisan4"
+        android:layout_below="@+id/tulisan3"
+        android:layout_width="400dp"
+        android:layout_height="20dp"
+        android:text="15:15 - 18:00 = olahraga "
+        android:textColor="#000">
+    </TextView>
+    <TextView
+        android:id="@+id/tulisan5"
+        android:layout_below="@+id/tulisan4"
+        android:layout_width="400dp"
+        android:layout_height="20dp"
+        android:text="18:00 - 19:30 = Mandi + Sholat + Makan malam "
+        android:textColor="#000">
+    </TextView>
+    <TextView
+        android:id="@+id/tulisan6"
+        android:layout_below="@+id/tulisan5"
+        android:layout_width="400dp"
+        android:layout_height="20dp"
+        android:text="19:30 - 21:00 = Belajar + Kerjakan tugas"
+        android:textColor="#000"
+        > </TextView>
+    <TextView
+        android:id="@+id/tulisan7"
+        android:layout_below="@+id/tulisan6"
+        android:layout_width="400dp"
+        android:layout_height="20dp"
+        android:text="21:00 - 22:00 = Refreshing + Main game"
+        android:textColor="#000"
+        > </TextView>
+    <TextView
+        android:id="@+id/tulisan8"
+        android:layout_below="@+id/tulisan7"
+        android:layout_width="400dp"
+        android:layout_height="20dp"
+        android:text="22:00 - 05:00 = Tidur"
+        android:textColor="#000"
+        > </TextView>
+</RelativeLayout>
+    </RelativeLayout>

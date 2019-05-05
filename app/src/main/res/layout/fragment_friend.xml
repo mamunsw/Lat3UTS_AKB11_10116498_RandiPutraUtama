@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FriendFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/freind"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:textColor="#000"
+        android:textSize="50dp"
+        android:text="Friend"
+        android:textStyle="bold"/>
+    <ImageView
+        android:id="@+id/if11"
+        android:layout_below="@id/freind"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/br"
+        />
+
+    <ImageView
+        android:id="@+id/un1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/if11"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/un" />
+    <ImageView
+
+        android:id="@+id/if2"
+        android:layout_below="@+id/un1"
+        android:layout_marginRight="@id/un1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/af"
+        />
+
+    <ImageView
+        android:layout_below="@+id/freind"
+        android:id="@+id/unv"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="@id/un1"
+        android:layout_toRightOf="@+id/if11"
+        android:src="@drawable/er" />
+
+</RelativeLayout>

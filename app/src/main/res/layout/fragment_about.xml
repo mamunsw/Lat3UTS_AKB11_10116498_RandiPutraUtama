@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/about1"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:text="About Me"
+        android:textColor="#000"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tulisann1"
+        android:layout_below="@+id/about1"
+        android:layout_width="410dp"
+        android:layout_height="100dp"
+        android:textColor="#000"
+        android:text="Nama saya Randi Putra Utama saya Kuliah di salah satu Kampus ternama di kota Bandung saya jurusan Teknik Informatika semester 6 saya Lahir pada 02 Juni 1998 saya anak pertama dari dua saudara"
+        />
+    <ImageView
+        android:id="@+id/foto1"
+        android:layout_below="@id/tulisann1"
+        android:layout_width="410dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ff"/>
+    <TextView
+        android:id="@+id/hobi1"
+        android:layout_below="@+id/foto1"
+        android:layout_width="410dp"
+        android:layout_height="100dp"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:text="Hobbi : sepak bola, futsal, basket, game, belajar"/>
+    <TextView
+        android:id="@+id/wa"
+        android:layout_below="@+id/hobi1"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Whatshapp : 082177922306"
+        android:autoLink="all"
+        android:linksClickable="true"/>
+    <ImageView
+        android:id="@+id/igg"
+        android:layout_below="@+id/wa"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ig"
+        android:clickable="true"/>
+    <TextView
+        android:textColor="#000"
+        android:layout_below="@+id/igg"
+        android:text="Instagram : randiputrautama"
+        android:autoLink="all"
+        android:linksClickable="true"
+        android:layout_width="250dp"
+        android:layout_height="25dp" />
+
+    <ImageView
+        android:id="@+id/gmi"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/wa"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="-3dp"
+        android:layout_toRightOf="@+id/igg"
+        android:clickable="true"
+        android:src="@drawable/gm" />
+
+
+
+</RelativeLayout>

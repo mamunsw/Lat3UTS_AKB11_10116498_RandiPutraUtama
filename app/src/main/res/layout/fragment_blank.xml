@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textgalery"
+        android:layout_width="450dp"
+        android:layout_height="120dp"
+        android:textSize="50dp"
+        android:text="Gallery"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_below="@+id/textgalery"
+        android:id="@+id/f1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/aa_" />
+
+    <ImageView
+        android:id="@+id/f2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/f1"
+        android:layout_marginTop="27dp"
+        android:src="@drawable/p" />
+    <ImageView
+        android:id="@+id/f3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/f2"
+        android:layout_marginTop="27dp"
+        android:src="@drawable/w" />
+
+    <ImageView
+        android:id="@+id/f4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/textgalery"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/f1"
+        android:src="@drawable/c" />
+    <ImageView
+        android:id="@+id/f5"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/f4"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/f2"
+        android:src="@drawable/y" />
+    <ImageView
+        android:id="@+id/f6"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/f5"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/f3"
+        android:src="@drawable/q" />
+</RelativeLayout>
